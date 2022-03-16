@@ -3,11 +3,11 @@ Feature: Transfer money, a lot of money
 
 
  # Scenario : Transfer money from current account to saving account
-  #Given I have 2000 on currentAccount
-   # And I have 5000 on savingAccount
-    #When I transfer 1000 from currentAccount to savingAccount
-  #  Then Transfer was executed
-  #  And Statement appear "A lot of money"
+ #   Given I have 2000 on currentAccount
+ #   And I have 5000 on savingAccount
+ #   When I transfer 1000 from currentAccount to savingAccount
+ #   Then Transfer was executed
+ #   And Statement appear "A lot of money"
 
   Scenario Outline: Transfer money from current account to saving account
     Given I have <current_ac> on currentAccount
